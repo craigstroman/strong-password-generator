@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Chrome Extension - Strong Password Generator</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/styles.css"/>       
+    </head>
+    <body>
+    	<div class="chrome-password-generator-wrapper">
+		<form>
+			<input type="text" class="strong-password-length" placeholder="Length"/>
+			<div>
+				<div id="error-text"></div>
+				<div class="password-copied-text">Password copied to clipboard.</div>
+				<input type="checkbox" class="strong-password-special-characters" id="special-characters"/>
+			    	<label for="special-characters">Include Special Characters</label>
+			</div>
+			<div class="actions">
+				<button id="generate-password">Generate Password</button>
+				<button id="copy-password" class="disabled" disabled="disabled">Copy Password</buttob>
+			</div>
+			<input type="text" class="strong-password-result" placeholder="New Password"/>
+		</form>
+	</div>
+	<script src="js/main.js"></script>
+    </body>
+</html>
