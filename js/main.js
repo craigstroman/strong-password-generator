@@ -53,7 +53,9 @@ var passwordGenerator = function () {
     };
 
     var initGenerator = function () {
-        _btnCopyPassword.disabled = true;
+        if ( _btnCopyPassword ) {
+            _btnCopyPassword.disabled = true;
+        }
 
         _btnGeneratePassword.addEventListener( "click", function ( e ) {
             e.preventDefault();
@@ -126,6 +128,9 @@ var passwordGenerator = function () {
 
 ( function () {
     var passwordGen = new passwordGenerator();
+    var wrapper = document.querySelector( ".chrome-password-generator-wrapper" );
 
-    passwordGen.initGenerator();
+    if ( wrapper ) {
+        passwordGen.initGenerator();
+    }
 } )();

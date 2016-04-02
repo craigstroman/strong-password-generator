@@ -4,7 +4,7 @@
 	"name": "Strong Password Generator",
 	"description": "This extension will generator a strong password.",
 
-	"version": "1.0.0",
+	"version": "1.0.1",
 
 	"permissions": [
 	  "activeTab"
