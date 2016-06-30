@@ -2,7 +2,7 @@
 
 A very simple Google Chrome extension to use for quickly generating a strong password and copying it to the clipboard.
 
-Install from the Chrome Web Store here: https://chrome.google.com/webstore/detail/strong-password-generator/fldokibnbidbaikbabhlbkdiealpndgj
+Install from the Chrome Web Store here: https://goo.gl/owxx74
 
 ##Version History
 
